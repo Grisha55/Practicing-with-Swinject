@@ -12,6 +12,10 @@
 		BEBE1817289F9AA300E9B34D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1816289F9AA300E9B34D /* ViewController.swift */; };
 		BEBE181C289F9AA400E9B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE181B289F9AA400E9B34D /* Assets.xcassets */; };
 		BEBE181F289F9AA400E9B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE181D289F9AA400E9B34D /* LaunchScreen.storyboard */; };
+		BEBE1828289F9D6500E9B34D /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1827289F9D6500E9B34D /* Assembly.swift */; };
+		BEBE182B289F9F0500E9B34D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE182A289F9F0500E9B34D /* NetworkService.swift */; };
+		BEBE182E289FA53D00E9B34D /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE182D289FA53D00E9B34D /* DatabaseService.swift */; };
+		BEBE1830289FA59E00E9B34D /* PostsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE182F289FA59E00E9B34D /* PostsObject.swift */; };
 		DCE3FF64C301FFA404A62570 /* Pods_PracitceWithSwinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3013CDB852E2504A254383 /* Pods_PracitceWithSwinject.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,10 @@
 		BEBE181B289F9AA400E9B34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE181E289F9AA400E9B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBE1820289F9AA400E9B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBE1827289F9D6500E9B34D /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		BEBE182A289F9F0500E9B34D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BEBE182D289FA53D00E9B34D /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		BEBE182F289FA59E00E9B34D /* PostsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,11 @@
 		BEBE1811289F9AA300E9B34D /* PracitceWithSwinject */ = {
 			isa = PBXGroup;
 			children = (
+				BEBE182C289FA52B00E9B34D /* DatabaseService */,
+				BEBE1829289F9EF800E9B34D /* NetworkService */,
+				BEBE1826289F9D4F00E9B34D /* AssemblyLayer */,
 				BEBE1812289F9AA300E9B34D /* AppDelegate.swift */,
+				BEBE182F289FA59E00E9B34D /* PostsObject.swift */,
 				BEBE1814289F9AA300E9B34D /* SceneDelegate.swift */,
 				BEBE1816289F9AA300E9B34D /* ViewController.swift */,
 				BEBE181B289F9AA400E9B34D /* Assets.xcassets */,
@@ -79,13 +91,36 @@
 			path = PracitceWithSwinject;
 			sourceTree = "<group>";
 		};
+		BEBE1826289F9D4F00E9B34D /* AssemblyLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE1827289F9D6500E9B34D /* Assembly.swift */,
+			);
+			path = AssemblyLayer;
+			sourceTree = "<group>";
+		};
+		BEBE1829289F9EF800E9B34D /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE182A289F9F0500E9B34D /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		BEBE182C289FA52B00E9B34D /* DatabaseService */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE182D289FA53D00E9B34D /* DatabaseService.swift */,
+			);
+			path = DatabaseService;
+			sourceTree = "<group>";
+		};
 		CEA20333E3EFACD1028A6C1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6847DF2FF5E10DADCCC0AB48 /* Pods-PracitceWithSwinject.debug.xcconfig */,
 				A3337A6DFD3DAC4FF118B3E4 /* Pods-PracitceWithSwinject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,7 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBE1830289FA59E00E9B34D /* PostsObject.swift in Sources */,
+				BEBE182E289FA53D00E9B34D /* DatabaseService.swift in Sources */,
+				BEBE182B289F9F0500E9B34D /* NetworkService.swift in Sources */,
 				BEBE1817289F9AA300E9B34D /* ViewController.swift in Sources */,
+				BEBE1828289F9D6500E9B34D /* Assembly.swift in Sources */,
 				BEBE1813289F9AA300E9B34D /* AppDelegate.swift in Sources */,
 				BEBE1815289F9AA300E9B34D /* SceneDelegate.swift in Sources */,
 			);
