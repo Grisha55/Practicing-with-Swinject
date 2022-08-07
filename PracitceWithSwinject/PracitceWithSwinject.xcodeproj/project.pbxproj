@@ -10,17 +10,19 @@
 		BEBE1813289F9AA300E9B34D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1812289F9AA300E9B34D /* AppDelegate.swift */; };
 		BEBE1815289F9AA300E9B34D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1814289F9AA300E9B34D /* SceneDelegate.swift */; };
 		BEBE1817289F9AA300E9B34D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1816289F9AA300E9B34D /* ViewController.swift */; };
-		BEBE181A289F9AA300E9B34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE1818289F9AA300E9B34D /* Main.storyboard */; };
 		BEBE181C289F9AA400E9B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE181B289F9AA400E9B34D /* Assets.xcassets */; };
 		BEBE181F289F9AA400E9B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE181D289F9AA400E9B34D /* LaunchScreen.storyboard */; };
+		DCE3FF64C301FFA404A62570 /* Pods_PracitceWithSwinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3013CDB852E2504A254383 /* Pods_PracitceWithSwinject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6847DF2FF5E10DADCCC0AB48 /* Pods-PracitceWithSwinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracitceWithSwinject.debug.xcconfig"; path = "Target Support Files/Pods-PracitceWithSwinject/Pods-PracitceWithSwinject.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3013CDB852E2504A254383 /* Pods_PracitceWithSwinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracitceWithSwinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3337A6DFD3DAC4FF118B3E4 /* Pods-PracitceWithSwinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracitceWithSwinject.release.xcconfig"; path = "Target Support Files/Pods-PracitceWithSwinject/Pods-PracitceWithSwinject.release.xcconfig"; sourceTree = "<group>"; };
 		BEBE180F289F9AA300E9B34D /* PracitceWithSwinject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracitceWithSwinject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE1812289F9AA300E9B34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBE1814289F9AA300E9B34D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEBE1816289F9AA300E9B34D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEBE1819289F9AA300E9B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEBE181B289F9AA400E9B34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE181E289F9AA400E9B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBE1820289F9AA400E9B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE3FF64C301FFA404A62570 /* Pods_PracitceWithSwinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FA56BD8802ADF4F4BDA8F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C3013CDB852E2504A254383 /* Pods_PracitceWithSwinject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEBE1806289F9AA300E9B34D = {
 			isa = PBXGroup;
 			children = (
 				BEBE1811289F9AA300E9B34D /* PracitceWithSwinject */,
 				BEBE1810289F9AA300E9B34D /* Products */,
+				CEA20333E3EFACD1028A6C1C /* Pods */,
+				9FA56BD8802ADF4F4BDA8F70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,21 @@
 				BEBE1812289F9AA300E9B34D /* AppDelegate.swift */,
 				BEBE1814289F9AA300E9B34D /* SceneDelegate.swift */,
 				BEBE1816289F9AA300E9B34D /* ViewController.swift */,
-				BEBE1818289F9AA300E9B34D /* Main.storyboard */,
 				BEBE181B289F9AA400E9B34D /* Assets.xcassets */,
 				BEBE181D289F9AA400E9B34D /* LaunchScreen.storyboard */,
 				BEBE1820289F9AA400E9B34D /* Info.plist */,
 			);
 			path = PracitceWithSwinject;
+			sourceTree = "<group>";
+		};
+		CEA20333E3EFACD1028A6C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6847DF2FF5E10DADCCC0AB48 /* Pods-PracitceWithSwinject.debug.xcconfig */,
+				A3337A6DFD3DAC4FF118B3E4 /* Pods-PracitceWithSwinject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEBE1823289F9AA400E9B34D /* Build configuration list for PBXNativeTarget "PracitceWithSwinject" */;
 			buildPhases = (
+				E674ED6DEEEBF3C7B9283412 /* [CP] Check Pods Manifest.lock */,
 				BEBE180B289F9AA300E9B34D /* Sources */,
 				BEBE180C289F9AA300E9B34D /* Frameworks */,
 				BEBE180D289F9AA300E9B34D /* Resources */,
+				1473BE62B482984540580FD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +151,52 @@
 			files = (
 				BEBE181F289F9AA400E9B34D /* LaunchScreen.storyboard in Resources */,
 				BEBE181C289F9AA400E9B34D /* Assets.xcassets in Resources */,
-				BEBE181A289F9AA300E9B34D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1473BE62B482984540580FD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracitceWithSwinject/Pods-PracitceWithSwinject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracitceWithSwinject/Pods-PracitceWithSwinject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracitceWithSwinject/Pods-PracitceWithSwinject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E674ED6DEEEBF3C7B9283412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracitceWithSwinject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEBE180B289F9AA300E9B34D /* Sources */ = {
@@ -147,14 +212,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEBE1818289F9AA300E9B34D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEBE1819289F9AA300E9B34D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEBE181D289F9AA400E9B34D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +339,7 @@
 		};
 		BEBE1824289F9AA400E9B34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6847DF2FF5E10DADCCC0AB48 /* Pods-PracitceWithSwinject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +350,6 @@
 				INFOPLIST_FILE = PracitceWithSwinject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +367,7 @@
 		};
 		BEBE1825289F9AA400E9B34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3337A6DFD3DAC4FF118B3E4 /* Pods-PracitceWithSwinject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +378,6 @@
 				INFOPLIST_FILE = PracitceWithSwinject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
