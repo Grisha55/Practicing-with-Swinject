@@ -1,0 +1,8 @@
+//
+//  PostsViewModel.swift
+//  PracitceWithSwinject
+//
+//  Created by Григорий Виняр on 07/08/2022.
+//
+
+import Foundation

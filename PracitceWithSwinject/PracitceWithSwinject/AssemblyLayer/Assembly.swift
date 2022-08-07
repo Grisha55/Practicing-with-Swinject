@@ -11,6 +11,8 @@ import Swinject
 class BaseAssembly: Assembly {
     func assemble(container: Container) {
         container.register(Network.self) { factory -> NetworkService in
+            let vc = PostsViewController()
+            vc.dataSource = TableViewDataSource()
             return NetworkService()
         }
         
