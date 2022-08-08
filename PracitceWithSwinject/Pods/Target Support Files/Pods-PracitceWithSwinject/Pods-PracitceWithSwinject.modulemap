@@ -1,0 +1,6 @@
+framework module Pods_PracitceWithSwinject {
+  umbrella header "Pods-PracitceWithSwinject-umbrella.h"
+
+  export *
+  module * { export * }
+}
