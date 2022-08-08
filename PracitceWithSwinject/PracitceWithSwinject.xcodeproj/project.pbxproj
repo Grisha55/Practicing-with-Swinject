@@ -17,7 +17,6 @@
 		BEBE182E289FA53D00E9B34D /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE182D289FA53D00E9B34D /* DatabaseService.swift */; };
 		BEBE1830289FA59E00E9B34D /* PostsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE182F289FA59E00E9B34D /* PostsObject.swift */; };
 		BEBE1832289FC12B00E9B34D /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1831289FC12B00E9B34D /* TableViewDataSource.swift */; };
-		BEBE1834289FC6D500E9B34D /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE1833289FC6D500E9B34D /* PostsViewModel.swift */; };
 		DCE3FF64C301FFA404A62570 /* Pods_PracitceWithSwinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3013CDB852E2504A254383 /* Pods_PracitceWithSwinject.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		BEBE182D289FA53D00E9B34D /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		BEBE182F289FA59E00E9B34D /* PostsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsObject.swift; sourceTree = "<group>"; };
 		BEBE1831289FC12B00E9B34D /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
-		BEBE1833289FC6D500E9B34D /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 				BEBE182F289FA59E00E9B34D /* PostsObject.swift */,
 				BEBE1814289F9AA300E9B34D /* SceneDelegate.swift */,
 				BEBE1816289F9AA300E9B34D /* PostsViewController.swift */,
-				BEBE1833289FC6D500E9B34D /* PostsViewModel.swift */,
 				BEBE1831289FC12B00E9B34D /* TableViewDataSource.swift */,
 				BEBE181B289F9AA400E9B34D /* Assets.xcassets */,
 				BEBE181D289F9AA400E9B34D /* LaunchScreen.storyboard */,
@@ -249,7 +246,6 @@
 				BEBE1832289FC12B00E9B34D /* TableViewDataSource.swift in Sources */,
 				BEBE182B289F9F0500E9B34D /* NetworkService.swift in Sources */,
 				BEBE1817289F9AA300E9B34D /* PostsViewController.swift in Sources */,
-				BEBE1834289FC6D500E9B34D /* PostsViewModel.swift in Sources */,
 				BEBE1828289F9D6500E9B34D /* Assembly.swift in Sources */,
 				BEBE1813289F9AA300E9B34D /* AppDelegate.swift in Sources */,
 				BEBE1815289F9AA300E9B34D /* SceneDelegate.swift in Sources */,

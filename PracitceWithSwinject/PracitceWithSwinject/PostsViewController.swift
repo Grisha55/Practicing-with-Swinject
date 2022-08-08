@@ -23,7 +23,6 @@ class PostsViewController: UIViewController {
         
         getData()
         setupUI()
-        dataSource.posts.append(PostObject(userId: 5, id: 7, title: "Some title", body: "Some body"))
         tableView.reloadData()
     }
 
